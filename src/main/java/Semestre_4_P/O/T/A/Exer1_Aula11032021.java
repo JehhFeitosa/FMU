@@ -1,22 +1,38 @@
 package Semestre_4_P.O.T.A;
-
 /*
- * Usando recursão, implemente um programa em Java que faça a soma de todos
-os valores de um vetor de números reais (float).
-
-Entrada:
-1.5, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0
-
-Saída: 55.5
-
+ * Considere o programa abaixo para encontrar o maior valor em um vetor de números
+inteiros. Escreva em Java uma solução recursiva objetivando a mesma solução.
  */
 public class Exer1_Aula11032021 {
 
 	public static void main(String[] args) {
 
+		int[] v = {100,4,7,111,30,35};
+		int maior = maiorValor1(v, v.length);
+		System.out.println("Maior valor = " + maior);
 	}
 	
-	
+	//iteração
+	public int maiorValor(int[] v, int tamanho){
+		int maior = v[0];
+		for (int i = 1; i < tamanho; i++) {
+		if (maior < v[i]) {
+		maior = v[i];
+		}
+		}
+		return maior;
+		}
 
+	public static int maiorValor1(int[] v, int tamanho) {
+		if(tamanho == 1) {
+			return v[0];
+		} else{
+			int maior = maiorValor1(v, tamanho - 1);
+			if(maior > v[tamanho - 1]) {
+				return maior;				
+			}
+			return v[tamanho - 1];
+		}
+	}
 
 }

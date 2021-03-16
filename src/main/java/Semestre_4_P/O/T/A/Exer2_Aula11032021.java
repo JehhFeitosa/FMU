@@ -13,14 +13,14 @@ public class Exer2_Aula11032021 {
 
 	public static void main(String[] args) {
 		float[] v = {100,4,7,111,30,35};
-		int tamanho = 5;
-		//somaIterativa(v, soma);
-		soma(v, tamanho);
-		 System.out.println(soma(v, tamanho));
+//		int tamanho = 5;
+//		//somaIterativa(v, soma);
+//		soma(v, tamanho);
+//		 System.out.println(soma(v, tamanho));
 	}
 	
 	//Solução iterativa
-	public static void somaIterativa(int[] v, int soma) {
+	public static void somaIterativa(float[]v, float soma) {
 
 		for (int i = 0; i < v.length; i++) {
 			soma = soma + v[i];

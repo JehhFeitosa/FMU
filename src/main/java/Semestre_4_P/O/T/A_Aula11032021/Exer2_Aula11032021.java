@@ -1,4 +1,4 @@
-package Semestre_4_P.O.T.A;
+package Semestre_4_P.O.T.A_Aula11032021;
 /*
  * Usando recursão, implemente um programa em Java que faça a soma de todos
 os valores de um vetor de números reais (float).

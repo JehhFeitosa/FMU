@@ -1,4 +1,4 @@
-package Semestre_4_P.O.T.A;
+package Semestre_4_P.O.T.A_Aula04032021;
 
 /*
  * Solução 1: elabore um método chamado exibeMensagem que receba como

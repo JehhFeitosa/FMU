@@ -1,4 +1,4 @@
-package Semestre_4_P.O.T.A;
+package Semestre_4_P.O.T.A_Aula11032021;
 
 /*
  * Elabore um algoritmo em pseudocódigo ou linguagem Java para, dado um valor

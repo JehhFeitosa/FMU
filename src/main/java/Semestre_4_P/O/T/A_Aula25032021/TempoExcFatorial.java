@@ -24,12 +24,13 @@ public class TempoExcFatorial {
 		int fatorial = 1;                                             //c1 1x
 		
 		for (int i = 1; i < n; i++) {                                 //c2 n+1
-			System.out.println(fatorial = fatorial + fatorial * 1);   //c3 n
+			System.out.println(fatorial = fatorial + fatorial * i);   //c3 n
 		}
 				
 		return fatorial;                                              //c4  1
 		
 	}
+	
 	
 
 }

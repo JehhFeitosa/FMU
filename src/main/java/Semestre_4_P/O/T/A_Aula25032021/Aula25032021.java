@@ -6,7 +6,7 @@ public class Aula25032021 {
 
 	public static void main(String[] args) {
 		int[] n = {1, 5, 6, 7, 5};
-		maior(n);
+		System.out.println(maior(n));
 
 	}
 

@@ -1,9 +1,9 @@
-package Semestre_4_P.O.T.A;
+package Semestre_4_P.O.T.A_Aula18032021;
 
 public class Fatorial {
 
 	public static void main(String[] args) {
-		System.out.println(fatorial(5));
+		System.out.println(fatorial1(5));
 	}
 
 	public static int fatorial(int n) {
@@ -12,20 +12,6 @@ public class Fatorial {
 		}
 		return n * fatorial(n - 1);
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //	//Resolução Iterativa
@@ -36,11 +22,13 @@ public class Fatorial {
 //		}
 //		return fatorial;
 //		}
-//	
-//	//Resolução Recursiva
-//	public static int fatorial1(int n){
-//		if(n <=1) {
-//			return 1;
-//		}
-//		return  n * fatorial1(n - 1);
-//		}
+	
+	//Resolução Recursiva
+	public static int fatorial1(int n){
+		if(n <=1) {
+			return 1;
+		}
+		return  n * fatorial1(n - 1);
+		}
+
+	}

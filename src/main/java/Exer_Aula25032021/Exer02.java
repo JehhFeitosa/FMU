@@ -2,6 +2,11 @@ package Exer_Aula25032021;
 
 import java.util.Scanner;
 
+/*
+ * Busca binária 
+ * para a estrutura
+ *  de dados vetor.
+ */
 public class Exer02 {
 
 	public static void main(String[] args) {
@@ -20,20 +25,18 @@ public class Exer02 {
 
 		int ini, fim, pivo;
 		ini = 0;
-		fim = v.length;
+		fim = v.length -1;
 
 		while (ini < fim) {
 			pivo = (ini + fim) / 2;
-//			if (v[pivo] == t) {
-//				return pivo;
-//			} else if (v[pivo] < t) {
-				
-			if (v[pivo] < t) {
-				ini = pivo++;
-			} else if (v[pivo] > t) {
-				fim = pivo--;
+			if (v[pivo] == t) {
+				return pivo;
 			} else {
-				return -1;
+				if (v[pivo] < t) {
+					ini = pivo + 1;
+				} else {
+					fim = pivo - 1;
+				}
 			}
 		}
 

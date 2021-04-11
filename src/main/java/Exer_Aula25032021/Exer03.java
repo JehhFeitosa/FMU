@@ -2,6 +2,10 @@ package Exer_Aula25032021;
 
 import java.util.Scanner;
 
+/*
+ * Versão Recursiva
+ * para a busca linear
+ */
 public class Exer03 {
 
 	public static void main(String args[]) {

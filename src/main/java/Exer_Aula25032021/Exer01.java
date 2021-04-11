@@ -1,7 +1,11 @@
 package Exer_Aula25032021;
 
 import java.util.Scanner;
-
+/*
+ * Busca linear
+ *  para a estrutura
+ *  de dados vetor.
+ */
 public class Exer01 {
 
 	public static void main(String[] args) {

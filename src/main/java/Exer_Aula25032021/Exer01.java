@@ -1,6 +1,7 @@
 package Exer_Aula25032021;
 
 import java.util.Scanner;
+
 /*
  * Busca linear
  *  para a estrutura

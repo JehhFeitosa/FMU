@@ -5,4 +5,6 @@ Atividades realizadas no período de estudos da Graduação de Análise e Desenv
 Aulas lecionadas pelo Mestre
 em Engenharia da Informação (UFABC) "Orlando Junior"
 
-## PACKAGE - SQL
+## PACKAGE - SQL E NOSQL
+Aulas lecionadas pelo Prof Ademir
+

@@ -3,8 +3,8 @@ package Exer_Aula25032021;
 import java.util.Scanner;
 
 /*
- * Vers„o Recursiva
- * da Busca Bin·ria
+ * Vers√£o Recursiva
+ * da Busca Bin√°ria
  */
 public class Exer04 {
 
@@ -13,10 +13,10 @@ public class Exer04 {
 
 		int[] v = { 1, 5, 6, 7, 9, 11, 18, 20 };
 
-		System.out.println("Digite um n˙mero para busca no array.");
+		System.out.println("Digite um n√∫mero para busca no array.");
 		int t = scan.nextInt();
 
-		System.out.println("PosiÁ„o do vetor: " + buscaBinariaRecursiva(v, t, 0, v.length -1));
+		System.out.println("Posi√ß√£o do vetor: " + buscaBinariaRecursiva(v, t, 0, v.length -1));
 	}
 
 	public static int buscaBinariaRecursiva(int v[], int t, int ini, int fim) {

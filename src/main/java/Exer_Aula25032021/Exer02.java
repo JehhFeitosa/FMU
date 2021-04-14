@@ -3,7 +3,7 @@ package Exer_Aula25032021;
 import java.util.Scanner;
 
 /*
- * Busca binária 
+ * Busca binÃ¡ria 
  * para a estrutura
  *  de dados vetor.
  */
@@ -15,10 +15,10 @@ public class Exer02 {
 
 		int[] v = { 1, 5, 6, 7, 9, 11, 18, 20 };
 
-		System.out.println("Digite um número para busca no array.");
+		System.out.println("Digite um nÃºmero para busca no array.");
 		int t = scan.nextInt();
 
-		System.out.println("Posição do vetor: " + buscaBinaria(v, t));
+		System.out.println("PosiÃ§Ã£o do vetor: " + buscaBinaria(v, t));
 	}
 
 	public static int buscaBinaria(int v[], int t) {
@@ -37,6 +37,18 @@ public class Exer02 {
 				} else {
 					fim = pivo - 1;
 				}
+
+//			if (v[pivo] == t) {
+//				return pivo;
+//			} else if (v[pivo] < t) {
+				
+			//if (v[pivo] < t) {
+			//	ini = pivo++;
+		//	} else if (v[pivo] > t) {
+		//		fim = pivo--;
+		//	} else {
+		//		return -1;
+
 			}
 		}
 

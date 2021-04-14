@@ -15,10 +15,10 @@ public class Exer01 {
 
 		int[] v = { 1, 5, 6, 7, 19, 9, 11, 18, 20, 4 };
 
-		System.out.println("Digite um número para busca no array.");
+		System.out.println("Digite um nÃºmero para busca no array.");
 		int t = scan.nextInt();
 
-		System.out.println("A posição do vetor: " + buscaLinear(v, t));
+		System.out.println("A posiÃ§Ã£o do vetor: " + buscaLinear(v, t));
 	}
 
 	public static int buscaLinear(int v[], int t) {

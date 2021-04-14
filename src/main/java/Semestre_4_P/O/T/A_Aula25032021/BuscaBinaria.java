@@ -25,7 +25,8 @@ public class BuscaBinaria {
 	 */
 	public static void main(String[] args) {
 		int[] v = {1, 5, 6, 7, 9, 11, 18, 20};
-		int t = 21; 
+
+		int t = 5; 
 		System.out.println("Posição do vetor: "+buscaBinaria(v, t));
 	}
 	
@@ -41,9 +42,9 @@ public class BuscaBinaria {
 				return pivo;
 			}else {
 				if(v[pivo] < t) {
-					ini = pivo ++;
+					ini = pivo + 1;
 				}else {
-					fim = pivo --;
+					fim = pivo - 1;
 				}
 			}
 		}

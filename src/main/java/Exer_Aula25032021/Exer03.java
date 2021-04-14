@@ -2,6 +2,10 @@ package Exer_Aula25032021;
 
 import java.util.Scanner;
 
+/*
+ * VersÃ£o Recursiva
+ * para a busca linear
+ */
 public class Exer03 {
 
 	public static void main(String args[]) {
@@ -10,10 +14,10 @@ public class Exer03 {
 		int[] v = { 1, 5, 6, 7, 19, 9, 11, 18, 20, 4 };
 		int posVetor = 0;
 
-		System.out.println("Digite um número para busca no vetor.");
+		System.out.println("Digite um nÃºmero para busca no vetor.");
 		int t = scan.nextInt();
 
-		System.out.println("A posição do vetor é: " + linearRecursiva(v, t, posVetor));
+		System.out.println("A posiÃ§Ã£o do vetor Ã©: " + linearRecursiva(v, t, posVetor));
 	}
 
 	public static int linearRecursiva(int v[], int t, int posvetor) {

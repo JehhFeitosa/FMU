@@ -25,11 +25,10 @@ public class Exer02 {
 
 		int ini, fim, pivo;
 		ini = 0;
-		fim = v.length;
+		fim = v.length -1;
 
 		while (ini < fim) {
 			pivo = (ini + fim) / 2;
-
 			if (v[pivo] == t) {
 				return pivo;
 			} else {

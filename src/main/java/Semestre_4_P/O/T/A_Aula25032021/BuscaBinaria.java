@@ -25,6 +25,7 @@ public class BuscaBinaria {
 	 */
 	public static void main(String[] args) {
 		int[] v = {1, 5, 6, 7, 9, 11, 18, 20};
+
 		int t = 5; 
 		System.out.println("Posição do vetor: "+buscaBinaria(v, t));
 	}

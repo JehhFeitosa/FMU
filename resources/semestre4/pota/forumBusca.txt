@@ -1,0 +1,8 @@
+Questões para discutir
+
+1.Uma vez que a busca binária é mais rápida que a busca linear, é verdade que a busca linear nunca deve ser utilizada? Explique.
+2. Quando a busca linear deve ser utilizada?
+Quando os elementos do vetor não estão ordenados.
+3. Como a busca linear pode ser melhorada?
+4.Quais são as desvantagens da busca binária?
+Na busca binária os elementos do vetor  necessariamente precisam estar ordenados.

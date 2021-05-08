@@ -1,0 +1,60 @@
+public class Estoq
+{
+private Prod[] prod;
+
+public Estoq(int qtd)  
+{  
+    prod = new Prod[qtd];
+    
+} 
+
+public Prod[] getProd()
+{
+    return prod;
+}
+
+public void insProd()
+{
+    Teclado t = new Teclado();
+    for(int i=0;i<prod.length;i++)
+    {
+      prod[i] = new Prod(t.leInt("CODIGO:"),t.leDouble("Preco"));
+      
+    }
+    
+}
+
+public void exibEstoq()
+{
+  for(int i=0;i<prod.length;i++)
+  if(prod[i] != null)
+  System.out.println("Prod:"+""+i+"Código:"+prod[i].getCodigo()+""+"Valor:"+prod[i].getPreco());   
+  else System.out.println("ESTOQUE VAZIO");
+}
+
+
+public void produtoMaisCaro()
+{
+         
+   for(int i=0;i<produtos.length;i++)
+   {
+       Prod mc = null;
+       if(prod[i].getPreco() > mc.getPreco())
+      System.out.println(prod[i]);
+   }
+   
+}     
+ public void acharProd(int codigo)
+ {
+     for(int i=0;i<prod.length;i++)
+     {
+         if(prod[i].getCodigo() == codigo)
+         {
+            System.out.println("Prod:"+"Codigo:"+prod[i].getCodigo()+""+"Preco:  "+prod[i].getPreco());
+         }
+         else
+
+          System.out.println("PRODUTO NAO ENCONTRADO");
+     
+    }
+ }

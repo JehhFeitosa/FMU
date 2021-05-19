@@ -1,0 +1,29 @@
+1-Quais foram as variáveis estudadas?
+R: Variáveis:
+	máquinas,
+	layout,
+	funcionários e
+	produção.
+
+2-Qual o tipo de cada variável, quantitativa ou qualitativa? Se quantitativa, qual sua unidade de medida? Se qualitativa, que níveis ou classes podem assumir?
+R: Variáveis qualitativas: otimização da produção "retrofitting" e layout "reformulação".
+   Variáveis quantitativas: máquinas "números" e funcionários "números"; 
+
+3-Como pode esse modelo de regressão linear múltipla ser usado para fazer predição de volume de produção de cada linha da fábrica?
+R:Para reduzir os resíduos estocásticos. Reduzindo-se a variância residual ou ERRO PADRÃO DA ESTIMATIVA, aumentando a força dos testes de significância;
+Para eliminar a tendenciosidade que poderia resultar se simplesmente ignorássemos uma variável que afeta o trecho Y.
+
+4-Reflita sobre situações similares em que você poderia aplicar essa mesma técnica (regressão linear múltipla) para gerar conhecimento a partir de dados. Descreva brevemente 
+uma dessas situações que você pensou, identifique cada uma das variáveis de entrada e a variável resposta, descreva o tipo de cada uma delas (se quantitativa ou qualitativa) e 
+forneça suas unidades de medida (se quantitativas) ou seus níveis ou classes (se qualitativas).
+R: Pensando em uma equipe de cyber security, que desenvolveu esquemas(scripts) para conter ataques aos servidores.
+A intenção é avaliar o indice de sucesso da implementação.
+
+• O índice de sucesso é baseado em dois fatores
+– Tempo de execução dos scripts (duração)
+– Número de ataques no período 
+
+Exemplo de amostra de dados:
+#Script  #Ataques #Duração #Índice
+Ataque1   28        153      7.4
+Ataque2   41         91      7.7

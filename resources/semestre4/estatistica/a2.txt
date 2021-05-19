@@ -1,0 +1,14 @@
+1- Quais são as variáveis de entrada e qual é a variável resposta? E quais são os seus tipos?
+R: Varíavel resposta é conformidade dos contratos (qualitativa).
+As variáveis de entradas são os Processos A, B e C "quantitativa", Equipes "qualitativa" Movimentação diária "qualitativa".
+ 
+
+2- Que variável de entrada a árvore de decisão considerou como a mais importante? E qual a segunda variável mais importante?
+R: A Primeira mais importante foi os processos. 
+A segunda foi as equipes.
+
+3- Esta árvore, como modelo preditivo, considerou relevante o efeito do movimento alto ou baixo na produção de contratos não conformes?
+R: Esta árvore não considerou relevante o efeito do movimento baixo ou alto na produção de contratos não conformes.
+
+4- De acordo com as predições desta árvore, qual a melhor solução a ser empregada pela companhia de telefonia móvel?
+R: A resolução melhor é o processo B de emissão de contrato com a equipe de tamanho reduzido.

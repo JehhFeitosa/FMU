@@ -1,0 +1,45 @@
+Grupo: Galerota
+
+Integrantes:
+
+	Jéssica Adriana Feitosa RA:2146934
+	Juliana dos Santos Lima RA: 3895943
+	Denilson Elias de Souza Junior RA: 3324643
+	Lucas Silva Rodrigues de Oliveira RA: 3851869
+	André Bezerra Ribeiro RA: 7343674
+
+
+1- Tela home com apresentação do produto:
+	Tela home apresentando a empresa, suas metas, propósito e ideais de forma que é pensada para cativar
+	e convencer o cliente. Além disso, é uma tela institucional exibindo informações básicas sobre a empresa
+	como fluxo para setores de contato e feedback, além de links externos para suas redes sociais.
+
+2- Navegação entre componentes:
+	Navegação entre páginas e recursos desenvolvida para criar um fluxo de uso aprimorado e agradável 
+	para o cliente, passando a sensação de um produto confiável e premium.
+	*Uma plataforma bonita, bem estruturada e com bom fluxo causa uma boa experiência ao cliente.
+	
+3- Sistema de cadastro/login:
+	Sistema de cadastro para registrar o cliente na plataforma, permitindo que o cliente tenha uma experiência
+	individualizada ao perfil, vinculando os produtos que mais lhe interessam e para que seja possível também
+	personalizar a sua experiência.
+	*É indispensável que o cliente tenha uma experiência individualizada em qualquer serviço online hoje em dia.
+
+4- Tela de listagem de livros:
+	Página onde os livros, mangás e quadrinhos são exibidos com uma construção agradável e intuitiva,
+	entregando uma experiência agradável ao usuário.
+	
+5- Tela de leitura com componente de voz:
+	Componente de voz que inicia, pausa, retoma e interrompe a leitura do conteúdo selecionado via voz,
+	voltado para clientes que possuam deficiências visuais. Também é uma opção de uso da plataforma,
+	podendo o usuário deixar a experiência em voz rodando em segundo plano, enquanto realiza suas atividades.
+	*Propagando a diversidade e inclusão, o sistema de leitura via voz permitirá com que os deficientes visuais também
+	possam aproveitar da plataforma de maneira integral.
+	
+6- Tela de contato:
+	Tela de contato onde o cliente/usuário pode enviar um feedback, dúvida ou sugestão à HelloTeca e 
+	este é armazenado em uma planilha do Google.
+
+7- Página de administração:
+	Página voltada aos administradores da aplicação, onde é possível adicionar, editar ou remover os produtos
+	que existem na plataforma.
